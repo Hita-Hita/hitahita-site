@@ -1,0 +1,23 @@
+/* var setting */
+:root {
+    --main-bg-color: #f5f5f5;
+}
+
+/* common setting */
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Josefin Slab", serif; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
