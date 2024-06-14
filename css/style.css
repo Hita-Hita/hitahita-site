@@ -7,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: "Josefin Slab", serif; */
+    font-family: "Josefin Slab", sans-serif;
 }
 
 html {
@@ -20,4 +20,121 @@ li {
 
 a {
     text-decoration: none;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav a {
+    margin-right: 30px;
+}
+
+/* firstview */
+
+.firstview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+/* main */
+
+.main {
+    margin: 40px;
+    background: linear-gradient(180deg, #fff 0%, #fff 4%, #fed055 29%, #30a5cb 49%, #0b5c7f 91%, #0b5c7f 100%);
+}
+
+/* theme-container */
+
+.theme-container {
+    padding-bottom: 100px;
+}
+
+.container-title {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 80px ;
+}
+
+.more-info-btn-area {
+    text-align: center;
+}
+
+.more-info-btn {
+    display: inline-block;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/* about */
+
+.about-text-box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+/* member */
+
+.member-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.member-box {
+    text-align: center;
+    width: 35%;
+}
+
+.member-image {
+    width: 100%;
+}
+
+/* works */
+
+.work-gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.work-box {
+    width: 30%;
+    text-align: center;
+}
+
+.work-image {
+    width: 100%;
+}
+
+/* news */
+.news-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.news-box {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
 }
